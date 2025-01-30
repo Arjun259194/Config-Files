@@ -12,6 +12,6 @@ vim.opt.wrap = false
 vim.opt.mouse = "a"
 vim.opt.guicursor = "n-v-i-c:block-Cursor"
 vim.opt.hlsearch = false
-vim.opt.laststatus = 0
+vim.opt.laststatus = 1
 vim.opt.scrolloff = 2
 vim.o.cmdheight = 0
