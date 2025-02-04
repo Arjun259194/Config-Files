@@ -9,3 +9,9 @@ vim.keymap.set("n", "<leader>W", ":wqa<CR>", {})
 -- split keys
 vim.keymap.set("n", "-", ":split<CR>", {})
 vim.keymap.set("n", "|", ":vsplit<CR>", {})
+
+
+-- running commands
+vim.keymap.set("n", "<leader>rr", ":!cargo run", {})
+vim.keymap.set("n", "<leader>rj", ":!node %", {})
+vim.keymap.set("n", "<leader>rt", ":!bun run %", {})

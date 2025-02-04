@@ -28,10 +28,4 @@ vim.opt.rtp:prepend(lazypath)
 require("lazy").setup("plugins")
 
 -- colorscheme
--- vim.cmd.colorscheme("onedark")
--- vim.cmd.colorscheme("rose-pine")
--- vim.cmd.colorscheme("tokyonight")
 vim.cmd.colorscheme("catppuccin")
--- vim.cmd.colorscheme("horizon")
--- vim.cmd.colorscheme("batman")
--- vim.cmd.colorscheme("ironman_dark")
