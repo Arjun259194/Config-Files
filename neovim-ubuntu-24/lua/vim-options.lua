@@ -16,6 +16,6 @@ vim.g.mapleader = " "
 vim.opt.mouse = "a"
 vim.opt.guicursor = "n-v-i-c:block-Cursor"
 
-vim.opt.laststatus = 1
 vim.opt.scrolloff = 2
 vim.o.cmdheight = 0
+vim.opt.laststatus = 3
